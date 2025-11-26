@@ -1,16 +1,16 @@
 .menu-item{
     background-color: transparent;
     border:0px;
-    margin:10px
-    
+    margin:10px;
+    transition: all 0.9s ease-in-out;
 }
 
 .menu-item:hover{
     transform: scale(1.2);
+    color:orange
 }
 
     mat-toolbar{
-
         .navigation-inline-container ::ng-deep{
             width: 100%;
             display: flex;
